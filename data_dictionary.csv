@@ -1,0 +1,80 @@
+﻿Field  Name,Description,Data Type,Indexed?
+,,,
+action_taken,"A code representing the action taken on the loan or application, such as whether an application was approved or denied. Loan originated means the application resulted in a mortgage. Loan purchased means that the lender bought the loan on the secondary market.",integer,TRUE
+action_taken_name,A description of the action taken.,string,FALSE
+agency_abbr,The abbreviated name of the federal agency.,string,TRUE
+agency_code,A code representing the federal agency to which the HMDA-reporting institution submits its HMDA data.,integer,TRUE
+agency_name,The full name of the federal agency.,string,FALSE
+applicant_ethnicity,A code representing the ethnicity of the primary applicant.,integer,TRUE
+applicant_ethnicity_name,The ethnicity of the primary applicant.,string,FALSE
+applicant_income_000s,"The gross annual income that the lender relied on when evaluating the creditworthiness of the applicant, rounded to the nearest thousand.",integer,FALSE
+applicant_race_1,A code representing the first listed race for the primary applicant. The applicant can list up to five races.,integer,TRUE
+applicant_race_2,A code representing the second listed race for the primary applicant.,integer,TRUE
+applicant_race_3,A code representing the third listed race for the primary applicant.,integer,TRUE
+applicant_race_4,A code representing the fourth listed race for the primary applicant.,integer,TRUE
+applicant_race_5,A code representing the fifth listed race for the primary applicant.,integer,TRUE
+applicant_race_name_1,The first listed race for the primary applicant. The applicant can list up to five races.,string,FALSE
+applicant_race_name_2,The second listed race for the primary applicant.,string,FALSE
+applicant_race_name_3,The third listed race for the primary applicant.,string,FALSE
+applicant_race_name_4,The fourth listed race for the primary applicant.,string,FALSE
+applicant_race_name_5,The fifth listed race for the primary applicant.,string,FALSE
+applicant_sex,A code representing the sex of the primary applicant.,integer,TRUE
+applicant_sex_name,The sex of the primary applicant.,string,FALSE
+application_date_indicator,"A code representing the date of the application. ""0"" means the application was made on or after 1/1/2004; ""1"" means the application was made before 1/1/2004; ""2"" means the application date is not available.",integer,TRUE
+as_of_year,The reporting year of the HMDA record.,integer,TRUE
+census_tract_number,The number of the census tract for the property. This code is only unique when combined with the state and county codes.,string,FALSE
+co_applicant_ethnicity,A code representing the ethnicity of the co-applicant.,integer,TRUE
+co_applicant_ethnicity_name,The ethnicity of the co-applicant.,integer,TRUE
+co_applicant_race_1,A code representing the first listed race for the co-applicant. The co-applicant can list up to five races.,integer,TRUE
+co_applicant_race_2,A code representing the second listed race for the co-applicant.,integer,TRUE
+co_applicant_race_3,A code representing the third listed race for the co-applicant.,integer,TRUE
+co_applicant_race_4,A code representing the fourth listed race for the co-applicant.,integer,TRUE
+co_applicant_race_5,A code representing the fifth listed race for the co-applicant.,integer,TRUE
+co_applicant_race_name_1,The first listed race for the co-applicant. The co-applicant can list up to five races.,string,FALSE
+co_applicant_race_name_2,The second listed race for the co-applicant.,string,FALSE
+co_applicant_race_name_3,The third listed race for the co-applicant.,string,FALSE
+co_applicant_race_name_4,The fourth listed race for the co-applicant.,string,FALSE
+co_applicant_race_name_5,The fifth listed race for the co-applicant.,string,FALSE
+co_applicant_sex,A code representing the sex of the co-applicant.,integer,TRUE
+co_applicant_sex_name,The sex of the co-applicant.,string,FALSE
+county_code,A three-digit code representing the county of the property. This code is only unique when combined with the state code.,integer,TRUE
+county_name,"The name of the county containing the property. Some counties have the same name, so we recommend combining this with state.",string,FALSE
+denial_reason_1,"A code representing the first reason for denial of the application. Lenders may report up to three denial reasons, but such reporting is optional.",integer,TRUE
+denial_reason_2,A code representing the second reason for denial of the application.,integer,TRUE
+denial_reason_3,A code representing the third reason for denial of the application.,integer,TRUE
+denial_reason_name_1,"The first reason for denial of the application. Lenders may report up to three denial reasons, but such reporting is optional.",string,FALSE
+denial_reason_name_2,The second reason for denial of the application.,string,FALSE
+denial_reason_name_3,The third reason for denial of the application.,string,FALSE
+edit_status,A code representing the edit failure status of the application.,integer,TRUE
+edit_status_name,The edit failure status of the application.,string,FALSE
+hoepa_status,A code representing whether a loan is subject to the Home Ownership and Equity Protection Act of 1994 (HOEPA).,integer,TRUE
+hoepa_status_name,The HOEPA status of the application.,string,FALSE
+hud_median_family_income,The median family income in dollars for the MSA/MD in which the tract is located.,integer,FALSE
+lien_status,"A code representing the lien status. Most mortgages are secured by a lien against the property. In the event of a forced liquidation, first lien holders will generally get paid before subordinate lien holders.",integer,TRUE
+lien_status_name,The lien status.,string,FALSE
+loan_amount_000s,"The amount of the loan applied for, in thousands of dollars.",integer,FALSE
+loan_purpose,"A code representing the purpose of the loan (home purchase, refinance, or home improvement).",integer,TRUE
+loan_purpose_name,The purpose of the loan.,string,FALSE
+loan_type,"A code representing the type of loan applied for. Many loans are insured or guaranteed by government programs offered by Federal Housing Administration (FHA), the Department of Veterans Affairs (VA), or the Department of Agriculture's Rural Housing Service (RHS) or Farm Service Agency (FSA). All other loans are classified as conventional.",integer,TRUE
+loan_type_name,The type of loan applied for.,string,FALSE
+minority_population,"The percentage of minority population to total population for the census tract, carried to two decimal places.",number,FALSE
+msamd,A code representing the Metropolitian Statistical Area/Metropolitian Division (MSA/MD) the property is located in. An MSA is a region with relatively high population density at its core (usually a single large city) and close economic ties throughout. Larger MSAs are divided into MDs.,undefined,TRUE
+msamd_name,The Metropolitian Statistical Area/Metropolitian Division (MSA/MD) the property is located in.,string,FALSE
+number_of_1_to_4_family_units,The number of dwellings in the tract that are built to house fewer than 5 families.,integer,FALSE
+number_of_owner_occupied_units,The number of dwellings in the tract that are lived in by the owner.,integer,FALSE
+owner_occupancy,"A code representing the owner-occupancy status of the property. Second homes, vacation homes, and rental properties are classified as ""not owner-occupied as a principal dwelling"".",integer,TRUE
+owner_occupancy_name,The owner-occupancy status of the property.,string,FALSE
+population,The total population in the tract.,integer,FALSE
+preapproval,A code representing the pre-approval status of the application.,integer,TRUE
+preapproval_name,The pre-approval status of the application.,string,FALSE
+property_type,A code representing the type of the property.,integer,TRUE
+property_type_name,The type of the property.,string,FALSE
+purchaser_type,A code representing the type of institution purchasing the loan.,integer,TRUE
+purchaser_type_name,The type of institution purchasing the loan.,string,FALSE
+rate_spread,"The rate spread for the loan, which is the difference between the loan's annual percentage rate (APR) and the average prime offer rate (APOR).",number,FALSE
+respondent_id,A code representing the bank or other financial institution that is reporting the loan or application.,integer,TRUE
+sequence_number,A one-up number scheme for each respondent to make each loan unique.,string,FALSE
+state_abbr,The two-letter abbreviation for the state the property is located in.,undefined,TRUE
+state_code,A two-digit code representing the state the property is located in.,integer,TRUE
+state_name,The name of the state the property is located in.,string,FALSE
+tract_to_msamd_income,"The percentage of the median family income for the tract compared to the median family income for the MSA/MD, rounded to two decimal places.",number,FALSE
