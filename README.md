@@ -1,4 +1,4 @@
-# LoanBiases
+# Loan Biases
 May 2019
 APCOMP 221 Final Project
 Caroline Teicher and Matt Leifer
