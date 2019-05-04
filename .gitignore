@@ -1,2 +1,3 @@
 # ignore csv files when adding to the repo
 *.csv
+.DS_Store
