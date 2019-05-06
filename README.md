@@ -3,7 +3,7 @@ May 2019<br/>
 APCOMP 221 Final Project<br/>
 Caroline Teicher and Matt Leifer
 
-### This repository contains two notebooks, pre-processing, and processing, which contains a documented analysis of the HMDA housing market data. All detailed processes and results is included in the notebooks. Below is a summary of each project phase. 
+#### This repository contains two notebooks, pre-processing, and processing, which contain documented analyses of the HMDA housing market data. All detailed processes and results are included in the two notebooks. Below is a summary of each project phase. 
 
 # Is the US mortgage market racially biased?
 
