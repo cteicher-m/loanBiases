@@ -47,6 +47,8 @@ Chessen, Matt. “Encoded Laws, Policies, and Virtues: the Offspring of Artifici
 
 “Fair Lending Laws.” Mortgage Compliance Magazine, www.mortgagecompliancemagazine.com/mortgage-compliance-alphabet-soups/fair-lending-laws/.
 
+Filing Instructions Guide for HMDA Data Collected in 2018. FFIEC, Sept. 2018, s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018-hmda-rule.pdf.
+
 Friedler, Sorelle A., Carlos Scheidegger, and Suresh Venkatasubramanian. "On the (im) possibility of fairness." arXiv preprint arXiv:1609.07236 (2016). https://arxiv.org/pdf/1609.07236.pdf. 
 
 Jan, Tracy. “The Senate Rolls Back Rules Meant to Root out Discrimination by Mortgage Lenders.” The Washington Post, WP Company, 14 Mar. 2018, www.washingtonpost.com/news/wonk/wp/2018/03/14/the-senate-rolls-back-rules-meant-to-root-out-discrimination-by-mortgage-lenders/?noredirect=on&utm_term=.86041577a8a3.
