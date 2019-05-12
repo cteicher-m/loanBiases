@@ -3,7 +3,7 @@ May 2019<br/>
 APCOMP 221 Final Project<br/>
 Caroline Teicher and Matt Leifer
 
-This repository contains two notebooks, **pre-processing.ipynb**, and **processing.ipynb**, which contain documented analyses of the HMDA housing market data. All detailed processes and results are included in the two notebooks. **headers.txt** contains a text file of each column name with a corresponding column index. **data_dictionary.csv** contains each column name, data type, and description accessible on the Consumer Financial Protection Bureau website. **Below is a summary of the project.***
+This repository contains two notebooks, **pre-processing.ipynb**, and **processing.ipynb**, which contain documented analyses of the HMDA housing market data. All detailed processes and results are included in the two notebooks. **headers.txt** contains a text file of each column name with a corresponding column index. **data_dictionary.csv** contains each column name, data type, and description accessible on the Consumer Financial Protection Bureau website. **Below is a summary of the project.**
 
 # Research Question: Is there racial bias in the mortgage approval process in the US?
 
